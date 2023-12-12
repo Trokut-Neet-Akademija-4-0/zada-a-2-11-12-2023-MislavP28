@@ -7,6 +7,7 @@ color: aliceblue;}
 header, main, footer {
     margin: 0 auto;
     max-width: 991px;
+    border: 1px solid;
 }
 
 header {height: 110px;}
@@ -19,3 +20,8 @@ color: aliceblue;}
 
 .icon { width: 32px;
         height:32px;}
+
+.social_footer li{
+    list-style-type: none;
+    color: aliceblue;}
+footer {min-height: 110px;}
