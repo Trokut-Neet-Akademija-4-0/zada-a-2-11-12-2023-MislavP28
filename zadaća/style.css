@@ -1,7 +1,8 @@
 body {font-size: larger;
-background-image: url(slike/6481.png_1200.png);
+background-image: url(slike/Space-Background-Image-3-1536x1024.jpg);
 background-size: cover;
-background-repeat: no-repeat;}
+background-repeat: no-repeat;
+color: aliceblue;}
 
 header, main, footer {
     margin: 0 auto;
@@ -13,4 +14,8 @@ div{ display: inline-block;}
 
 li{float: left;
 list-style-type: none;
-padding: 15px;}
+padding: 15px;
+color: aliceblue;}
+
+.icon { width: 32px;
+        height:32px;}

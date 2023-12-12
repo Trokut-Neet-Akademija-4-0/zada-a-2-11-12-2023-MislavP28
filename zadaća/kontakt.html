@@ -6,7 +6,10 @@
     <title>Kontakti</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<header>
+
+
+<body>
+    <header>
     <nav>
         <table>
             <tr>
@@ -21,9 +24,9 @@
                     <div> 
                         <ul>
                             <li><a href="naslovna.html">Naslovna stranica</a> </li>
-                            <li><a href="onama.html" target="_blank">O nama</a></li>
-                            <li><a href="usluge.html" target="_blank">Usluge</a></li>
-                            <li><a href="kontakt.html" target="_blank">Kontakt</a></li>
+                            <li><a href="onama.html">O nama</a></li>
+                            <li><a href="usluge.html">Usluge</a></li>
+                            <li><a href="kontakt.html">Kontakt</a></li>
                         </ul>
                     </div>
                    
@@ -45,23 +48,76 @@
       
     </nav>
 
-</header>
-
-<body>
-    <table>
-        <tr>
-            <div>
-                <td></td>
-            </div>
+    </header>
     
+    <main>
+        <table>
+            <tr>
+                <td> <!--Ćelija za formu-->
+                    <div>
+                        <table>
+                            <form action="hvlavam.html" method="get">
+                                <label>Ime i Prezime:</label><br>
+                                <input required="true" type="text" name="ime" placeholder="Unesite ime i prezime">
+                                <br>
+                                <label for="">Email:</label><br>
+                                <input required="true" type="email" name="email" placeholder="Email">
+                                <br>
+                                <label for="">Vaša Poruka:</label><br>
+                                <textarea required="true" name="" id="" cols="35" rows="15"></textarea>
+                                <br>
+                                <button type="submit">Pošalji</button>
+                                <button type="reset">Resetiraj</button>
+                            </form>
+                        </table>
+                    </div>
+                </td>
 
-            
+                <td><!--Ćelija za info-->
+                    <div>
+                        <img src="slike/Asusgpu.jpg" alt="Slika ausu" height="450vh" width="650vw">
+                        <section> <!--kontakti-->
+                            <table>
+                                <tr>Kontakt:
+                                    <td>Email:</td>
+                                    <td>gpukriticar@gmail.com</td>
+                                </tr>
 
+                                <tr>
+                                    <td>OIB:</td>
+                                    <td>4206980085</td>
+                                </tr>
+    
+                                <tr>
+                                    <td>Adresa:</td>
+                                    <td>Jure Jurića 44 22213, Pirovac</td> 
+                                </tr>
+    
+                                <tr>
+                                    <td>Mobitel:</td>
+                                    <td>097 4477638</td>
+                                </tr>
+                            </table>
 
+                        </section>
+                        <section> <!--Društvene mreže-->
+                            <ul><strong>Društvene mreže:</strong> <br>
+                                <li><a href="https://twitter.com" target="_blank"><img class="icon" src="slike/twitter-x.svg" alt="Link za Twitter"> @fanofkriticar</a></li>
+                                <li><a href="https://www.instagram.com/" target="_blank"><img class="icon" src="slike/instagram.svg" alt="Link za Instagram"> GpuKritičar</a></li>
+                                <li><a href="https://www.facebook.com" target="_blank"><img class="icon" src="slike/facebook.svg" alt="Link za facebook">GpuKritičar</a></li>
+                                <li><a href="https://www.whatsapp.com/gpukriticar/" target="_blank"> <img class="icon" src="slike/whatsapp.svg" alt="Link za whatsapp">GpuKritičar</a></li>
+                            </ul><br>
+                        </section>
+                    </div>
+                </td>
+            </tr>
+        </table>
 
+    </main>
 
-        </tr>
-    </table>
+    <footer>
+
+    </footer>
     
 </body>
 </html>
