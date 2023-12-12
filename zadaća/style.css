@@ -1,0 +1,16 @@
+body {font-size: larger;
+background-image: url(slike/6481.png_1200.png);
+background-size: cover;
+background-repeat: no-repeat;}
+
+header, main, footer {
+    margin: 0 auto;
+    max-width: 991px;
+}
+
+header {height: 110px;}
+div{ display: inline-block;}
+
+li{float: left;
+list-style-type: none;
+padding: 15px;}
