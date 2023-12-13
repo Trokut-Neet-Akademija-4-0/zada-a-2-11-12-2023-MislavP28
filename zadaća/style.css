@@ -40,12 +40,14 @@ color: aliceblue;}
     text-align: center;
 }
 
-.social_footer :hover, header li :hover{ background-color:pink;}
+.social_footer :hover {background-color: pink;}
+header li :hover{color:pink;}
 
 .gpu img {float: right;
     height: 240px;
     width: 340px;
-    margin-left: 35px;}
+    margin-left: 35px;
+    }
 
 .cpu img{float: left;
     height: 240px;
@@ -56,4 +58,8 @@ color: aliceblue;}
     width: 340px;
     margin-left: 35px;}
 
-.cpu, .gpu, .ostalo {margin: 0 35px;}
+.cpu, .gpu, .ostalo {margin: 0 35px;line-height: 30px;}
+
+.onama_td {line-height: 30px}
+
+.info :hover {background-color: purple;}
