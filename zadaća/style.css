@@ -7,8 +7,11 @@ color: aliceblue;}
 header, main, footer {
     margin: 0 auto;
     max-width: 991px;
-    border: 1px solid;
-}
+    color: aliceblue;}
+
+header a {text-decoration: none;
+    color: aliceblue;}
+
 
 header {height: 110px;}
 div{ display: inline-block;}
@@ -21,7 +24,23 @@ color: aliceblue;}
 .icon { width: 32px;
         height:32px;}
 
-.social_footer li{
-    list-style-type: none;
-    color: aliceblue;}
-footer {min-height: 110px;}
+.social_footer{
+    color: aliceblue;
+    margin: auto;
+    width: 33%;
+    min-height: 110px;}
+.social_footer :hover, header li :hover{ background-color:pink;}
+
+.gpu img {float: right;
+    height: 240px;
+    width: 340px;
+    margin: 35px;}
+
+.cpu img{float: left;
+    height: 240px;
+    width: 340px;
+    margin: 35px;}
+.ostalo img{float: right;
+    height: 240px;
+    width: 340px;
+    margin: 35px;}
