@@ -7,13 +7,17 @@ color: aliceblue;}
 header, main, footer {
     margin: 0 auto;
     max-width: 991px;
-    color: aliceblue;}
+    color: aliceblue; }
 
 header a {text-decoration: none;
     color: aliceblue;}
+.main_usluge section p {text-align: justify;}
 
 
 header {height: 110px;}
+.header_spacer1 { width: 33px;}
+.header_spacer2 { width: 45px;}
+
 div{ display: inline-block;}
 
 li{float: left;
@@ -29,18 +33,27 @@ color: aliceblue;}
     margin: auto;
     width: 33%;
     min-height: 110px;}
+
+.social_contacts a {text-decoration: none; 
+    color: aliceblue;}
+.social_contacts {
+    text-align: center;
+}
+
 .social_footer :hover, header li :hover{ background-color:pink;}
 
 .gpu img {float: right;
     height: 240px;
     width: 340px;
-    margin: 35px;}
+    margin-left: 35px;}
 
 .cpu img{float: left;
     height: 240px;
     width: 340px;
-    margin: 35px;}
+    margin-right: 35px;}
 .ostalo img{float: right;
     height: 240px;
     width: 340px;
-    margin: 35px;}
+    margin-left: 35px;}
+
+.cpu, .gpu, .ostalo {margin: 0 35px;}
