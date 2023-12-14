@@ -31,7 +31,9 @@ p {text-align: justify;
     line-height: 30px;}
 
 .icon { width: 32px;
-        height:32px;}
+        height:32px;
+        }
+.logo1 {filter: invert(98%) sepia(100%) saturate(0%) hue-rotate(325deg) brightness(101%) contrast(105%);}
 
 .social_footer {
         margin: 0 auto;
@@ -133,7 +135,7 @@ button:hover {background-color: pink;}
 }
 
 .nav1 img:hover {
-    filter: invert(8%) sepia(97%) saturate(5633%) hue-rotate(360deg) brightness(83%) contrast(109%);
+    filter: invert(79%) sepia(13%) saturate(732%) hue-rotate(302deg) brightness(101%) contrast(101%);
 }
 
 .nav1 img:active {
