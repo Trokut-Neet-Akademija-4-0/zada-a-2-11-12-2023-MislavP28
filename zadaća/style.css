@@ -25,14 +25,36 @@ list-style-type: none;
 padding: 15px;
 color: aliceblue;}
 
+p {text-align: justify;
+    line-height: 30px;}
+
 .icon { width: 32px;
         height:32px;}
 
-.social_footer{
-    color: aliceblue;
-    margin: auto;
-    width: 33%;
-    min-height: 110px;}
+.social_footer {
+        margin: 0 auto;
+        width: 50%;
+    }
+    
+.social_footer span {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    
+.social_footer span:nth-last-of-type(1) {
+        font-size: small;
+        display: flex;
+        align-items: center;
+        padding-bottom: 35px;
+    }
+    
+.social_footer div {
+        margin-top: -20px;
+        margin-inline: 100px;
+        margin-bottom: 0;
+        width: 320px;
+    }
 
 .social_contacts a {text-decoration: none; 
     color: aliceblue;}
@@ -40,8 +62,24 @@ color: aliceblue;}
     text-align: center;
 }
 
-.social_footer :hover {background-color: pink;}
+
 header li :hover{color:pink;}
+
+#fb:hover {
+    filter: invert(35%) sepia(64%) saturate(849%) hue-rotate(187deg) brightness(90%) contrast(78%);
+}
+
+#tw:hover {
+    filter: invert(49%) sepia(45%) saturate(1822%) hue-rotate(176deg) brightness(97%) contrast(95%);
+}
+
+#in:hover {
+    filter: invert(31%) sepia(33%) saturate(2440%) hue-rotate(289deg) brightness(96%) contrast(97%);
+}
+
+#wp:hover {    
+    filter: invert(63%) sepia(94%) saturate(412%) hue-rotate(86deg) brightness(92%) contrast(87%);
+}
 
 .gpu img {float: right;
     height: 240px;

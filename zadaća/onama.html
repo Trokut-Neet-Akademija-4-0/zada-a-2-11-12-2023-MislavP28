@@ -9,49 +9,48 @@
 
 <body>
     <header>
+        
+        <nav>
+            <table>
+                <tr>
+                    <td class="nav1"> <!-- ovo je ćelija za logo--> 
+                        <div>
+                            <a href="naslovna.html"> <img src="slike/gpu-card.svg" alt="Logo" height="100px" width="100px"></a>
+                        </div>
+                        
+                    </td>
+                    <td class="header_spacer1"></td>
+                    <td class="nav2"> <!--ovo je ćelija za linkove -->
+                        <div> 
+                            <ul>
+                                <li><a href="naslovna.html">Naslovna stranica</a> </li>
+                                <li><a href="onama.html">O nama</a></li>
+                                <li><a href="usluge.html">Usluge</a></li>
+                                <li><a href="kontakt.html">Kontakt</a></li>
+                            </ul>
+                        </div>
+                       
+                    </td>
+                    <td class="header_spacer2"></td>
 
-    <nav>
-        <table>
-            <tr>
-                <td> <!-- ovo je ćelija za logo--> 
-                    <div>
-                        <a href="naslovna.html"> <img src="slike/gpu-card.svg" alt="Logo" height="100px" width="100px"></a>
-                    </div>
-                    
-                </td>
-                <td class="header_spacer1"></td>
+                    <td class="nav3"> <!--Ovo je ćelija za srč bar-->
+                        <div>
+                            <form>
+                                <input type="text" placeholder="Unesite traženi pojam">
+                                <button type="submit"> <img src="slike/search.svg" alt="search">
+                                </button>
+                            </form>
+                        </div>
+                        
+                    </td>
 
-                <td> <!--ovo je ćelija za linkove -->
-                    <div> 
-                        <ul>
-                            <li><a href="naslovna.html">Naslovna stranica</a> </li>
-                            <li><a href="onama.html">O nama</a></li>
-                            <li><a href="usluge.html">Usluge</a></li>
-                            <li><a href="kontakt.html">Kontakt</a></li>
-                        </ul>
-                    </div>
-                   
-                </td>
-                <td class="header_spacer2"></td>
+                </tr>
+            </table>
+          
+        </nav>
 
-                <td> <!--Ovo je ćelija za srč bar-->
-                    <div>
-                        <form>
-                            <input type="text" placeholder="Unesite traženi pojam">
-                            <button type="submit"> <img src="slike/search.svg" alt="search">
-                            </button>
-                        </form>
-                    </div>
-                    
-                </td>
-
-            </tr>
-        </table>
-      
-    </nav>
-
-</header>
-<main>
+    </header>
+<main class="onama">
     <table>
         <tr>
             <div>
@@ -78,15 +77,17 @@
     </table>
 </main>
 <footer>
-    <section class="social_footer">
-        <ul>
-         <li><a href="https://twitter.com" target="_blank"><img class="icon" src="slike/twitter-x.svg" alt="Link za Twitter"></a></li>
-            <li><a href="https://www.instagram.com/" target="_blank"><img class="icon" src="slike/instagram.svg" alt="Link za Instagram"></a></li>
-            <li><a href="https://www.facebook.com" target="_blank"><img class="icon" src="slike/facebook.svg" alt="Link za facebook"></a></li>
-            <li><a href="https://www.whatsapp.com/gpukriticar/" target="_blank"> <img class="icon" src="slike/whatsapp.svg" alt="Link za whatsapp"></a></li>
-    
-        </ul><br>
-    <!--stao si kod forme za kontakt-->
+    <section class="social_footer"> <!--Društvene mreže-->
+        <span>Slide into our DMs na društvenim mrežama!</span>
+        <div>
+            <ul>
+                <li><a id="tw" href="https://twitter.com" target="_blank"><img class="icon" src="slike/twitter-x.svg" alt="Link za Twitter"></a></li>
+                <li><a id="in" href="https://www.instagram.com/" target="_blank"><img class="icon" src="slike/instagram.svg" alt="Link za Instagram"></a></li>
+                <li><a id="fb" href="https://www.facebook.com" target="_blank"><img class="icon" src="slike/facebook.svg" alt="Link za facebook"></a></li>
+                <li><a id="wp" href="https://www.whatsapp.com/gpukriticar/" target="_blank"> <img class="icon" src="slike/whatsapp.svg" alt="Link za whatsapp"></a></li>        
+            </ul><br>
+        </div><br>
+        <span>© 2023 - 2023 GPU Kritičar | All rights reserved.</span>  
     </section>
 </footer>
 </body>
