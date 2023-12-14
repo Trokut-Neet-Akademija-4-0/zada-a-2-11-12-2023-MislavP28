@@ -7,7 +7,8 @@ color: aliceblue;}
 header, main, footer {
     margin: 0 auto;
     max-width: 991px;
-    color: aliceblue; }
+    color: aliceblue; 
+    background-color: rgba(0, 0, 0, 0.766);}
 
 header a {text-decoration: none;
     color: aliceblue;}
@@ -16,7 +17,8 @@ header a {text-decoration: none;
 
 header {height: 110px;}
 .header_spacer1 { width: 33px;}
-.header_spacer2 { width: 45px;}
+.header_spacer2 { width: 0px;}
+
 
 div{ display: inline-block;}
 
@@ -101,3 +103,101 @@ header li :hover{color:pink;}
 .onama_td {line-height: 30px}
 
 button:hover {background-color: pink;}
+
+
+
+
+:is(nav, .social_contacts) a:link {
+    text-decoration: none;
+    color: white;
+}
+
+:is(nav, .social_contacts) a:visited {
+    color: white;
+}
+
+.nav2 a:hover {
+    color: pink;
+}
+
+.nav2 a:active {
+    color: orange;
+}
+
+.nav1 {
+    width: 13%;
+}
+
+.nav1 img {
+    filter: invert(98%) sepia(100%) saturate(0%) hue-rotate(325deg) brightness(101%) contrast(105%);
+}
+
+.nav1 img:hover {
+    filter: invert(8%) sepia(97%) saturate(5633%) hue-rotate(360deg) brightness(83%) contrast(109%);
+}
+
+.nav1 img:active {
+    filter: invert(47%) sepia(99%) saturate(1067%) hue-rotate(10deg) brightness(90%) contrast(101%);
+}
+
+.nav2 {
+
+    width: 62%;
+    padding-bottom: 25px;
+    font-size: larger;
+}
+
+.nav3 input {
+    height: 30px;
+    width: 130px;
+    border: solid;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+input {
+    border: solid;
+    height: 30px;
+    width: 220px;
+}
+
+textarea {
+    border: solid;
+}
+
+:is(input, textarea)::placeholder {
+    font-family: 'NewFont';
+    font-size: 13px;
+    border: solid;
+}
+
+.forma :is(input, textarea):valid {
+    color: green;
+}
+.forma :is(input, textarea):invalid {
+    color: pink;
+}
+
+
+:is(input, textarea):hover {
+    color: pink;
+}
+
+.nav3 button {
+    vertical-align: middle;
+    height: 40px;
+    width: 40px;
+    border: solid;
+}
+
+.nav3 button img {
+    width: 20px;
+    height: 20px;
+}
+
+.forma button {
+    border: solid;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    margin-left: 15px;}
