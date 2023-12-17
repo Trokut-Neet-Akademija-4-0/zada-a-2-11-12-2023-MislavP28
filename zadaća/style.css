@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Rubik;
+    src: url(FOntovi/RubikBrokenFax-Regular.ttf);
+}
+@font-face {
+    font-family: Oswald;
+    src: url(FOntovi/Oswald-VariableFont_wght.ttf);
+}
+
+
 body {font-size: larger;
 background-image: url(slike/Space-Background-Image-3-1536x1024.jpg);
 background-size: cover;
@@ -8,7 +18,8 @@ header, main, footer {
     margin: 0 auto;
     max-width: 991px;
     color: aliceblue; 
-    background-color: rgba(0, 0, 0, 0.766);}
+    background-color: rgba(0, 0, 0, 0.766);
+    border-radius: 15px;}
 
 header a {text-decoration: none;
     color: aliceblue;}
@@ -22,13 +33,15 @@ header {height: 110px;}
 
 div{ display: inline-block;}
 
-li{float: left;
+:is(header, footer) li{float: left;
 list-style-type: none;
 padding: 15px;
 color: aliceblue;}
 
+
 p {text-align: justify;
-    line-height: 30px;}
+    line-height: 30px;
+    font-family: Oswald;}
 
 .icon { width: 32px;
         height:32px;
@@ -62,7 +75,7 @@ p {text-align: justify;
 
 .social_contacts a {text-decoration: none; 
     color: aliceblue;}
-.social_contacts {
+.social_contacts, .podatci {
     text-align: center;
 }
 
@@ -89,16 +102,25 @@ header li :hover{color:pink;}
     height: 240px;
     width: 340px;
     margin-left: 35px;
+    border: solid 1px aliceblue;
+    border-radius: 15px;
     }
 
 .cpu img{float: left;
     height: 240px;
     width: 340px;
-    margin-right: 35px;}
+    margin-right: 35px;
+    border: solid 1px aliceblue;
+    border-radius: 15px;}
 .ostalo img{float: right;
     height: 240px;
     width: 340px;
-    margin-left: 35px;}
+    margin-left: 35px;border: solid 1px aliceblue;
+    border-radius: 15px;}
+
+:is(.cpu,.gpu, .ostalo) img:hover {
+    filter: brightness(75%) saturate(115%);
+} 
 
 .cpu, .gpu, .ostalo {margin: 0 35px;line-height: 30px;}
 
@@ -147,14 +169,16 @@ button:hover {background-color: pink;}
     width: 62%;
     padding-bottom: 25px;
     font-size: larger;
+    font-family: Rubik;
 }
 
 .nav3 input {
     height: 30px;
-    width: 130px;
+    width: 140px;
     border: solid;
     vertical-align: middle;
-    margin-left: 20px;
+    margin-left: 10px;
+    border-radius: 15px;
 }
 
 input {
@@ -190,6 +214,7 @@ textarea {
     height: 40px;
     width: 40px;
     border: solid;
+    border-radius: 15px;
 }
 
 .nav3 button img {
@@ -202,4 +227,42 @@ textarea {
     width: 200px;
     height: 40px;
     font-weight: bold;
-    margin-left: 15px;}
+    margin-left:15px;}
+
+h1 {font-family: Rubik;
+    color: pink;}
+h2 {font-family: Oswald;
+    color: pink;}
+
+.naslovna {min-height: 900px;}
+.onama {min-height: 900px;}
+.kontakti { min-height: 900px;}
+
+:is(section, div) > p:first-of-type:not(:only-of-type)::first-letter {
+    font-size: 40px;}
+
+.divnaslovna {margin-inline: 20px;}
+.onama_td div {margin-inline: 20px;}
+
+.onama h2 {
+            margin-top: 15px;
+            margin-inline: 20px;
+            font-size: 30px;}
+
+.divonama {
+        margin: 0 auto;
+        min-width: 991px;
+        text-align: center;
+        margin-top: 150px;
+        font-size: x-large;}
+.divonama li {list-style-type: none;}
+
+.podatci li{
+        list-style-type: none;
+        text-align: center;}
+
+.social_contacts li{
+    list-style-type: none;
+    float: left;
+    padding: 45px;}
+
